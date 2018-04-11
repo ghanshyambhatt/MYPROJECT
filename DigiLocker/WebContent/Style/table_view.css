@@ -1,0 +1,23 @@
+#file_table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    font-weight: 600;
+}
+
+#file_table td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#file_table tr:nth-child(even){background-color: #f2f2f2; background: transparent;}
+
+#file_table tr:hover {background-color: #ddd;}
+
+#file_table th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
