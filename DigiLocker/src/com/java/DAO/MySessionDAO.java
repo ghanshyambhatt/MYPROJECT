@@ -12,7 +12,7 @@ import com.java.interfaces.SessionDAO;
 public class MySessionDAO implements SessionDAO {
 
 	public boolean createActiveSession(String sessionId, String username) {
-		// getting connection.
+		// getting connection. hello
 		DBUtil db = new DBUtil();
 		Connection con = db.getConnection();
 
